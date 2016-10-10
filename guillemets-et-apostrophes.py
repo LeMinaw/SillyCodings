@@ -11,7 +11,9 @@ ALPHABET = {'0': "''''''",
             '6': "''\"\"",
             '7': "'\"\"'",
             '8': "\"\"''",
-            '9': "\"\"\""}
+            '9': "\"\"\"",
+            'FLOAT_SEP': "\"'\"'",
+            'DATA_SEP': "'\"'\""}
 
 ALPHABET_DECODE = dict(zip(ALPHABET.values(), ALPHABET.keys())) # Reverses ALPHABET keys and values
 
